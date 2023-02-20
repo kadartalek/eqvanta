@@ -5,7 +5,7 @@
 >
     <testsuites>
         <testsuite name="My Test Suite">
-            <directory suffix="Test.php" phpVersionOperator=">=">tests/cases</directory>
+            <directory suffix="Test.php">tests/cases</directory>
         </testsuite>
     </testsuites>
 </phpunit>
