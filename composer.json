@@ -1,0 +1,29 @@
+{
+  "name": "kadartalek/eqvanta",
+  "type": "library",
+  "authors": [
+    {
+      "name": "Kadanin"
+    }
+  ],
+  "minimum-stability": "stable",
+  "require": {
+    "php": ">=8.2",
+    "ext-bcmath": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Kadartalek\\Eqvanta\\": "src/",
+      "tests\\": "tests/"
+    }
+  },
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://asset-packagist.org"
+    }
+  ],
+  "require-dev": {
+    "phpunit/phpunit": "^10.0"
+  }
+}
